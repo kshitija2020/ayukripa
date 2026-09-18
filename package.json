@@ -1,0 +1,18 @@
+{
+  "name": "ayukripa-wellness-store-vercel",
+  "version": "1.0.0",
+  "description": "Ayukripa Wellness Care store, built for Vercel (Express API function + Vercel Postgres)",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

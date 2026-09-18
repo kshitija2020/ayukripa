@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayukripa Wellness Care</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+  :root{
+    --bg:#fbf8f2; --card:#ffffff; --ink:#2a2a1f; --muted:#6b6b5f;
+    --brand:#c8722a; --brand-dark:#8a4d16; --green:#2f6b3a; --line:#ece5d6;
+  }
+  body{ background:var(--bg); color:var(--ink); font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  .card{ background:var(--card); border:1px solid var(--line); }
+  .brand-btn{ background:var(--brand); color:#fff; }
+  .brand-btn:hover{ background:var(--brand-dark); }
+  .muted{ color:var(--muted); }
+  .line{ border-color:var(--line); }
+  .badge{ background:var(--green); color:#fff; }
+  input, select, textarea{ background:transparent; color:var(--ink); }
+  input::placeholder, textarea::placeholder{ color:var(--muted); }
+</style>
+</head>
+<body class="min-h-screen">
+<div id="app" class="max-w-6xl mx-auto px-4 pb-24"></div>
+<script src="/app.js"></script>
+</body>
+</html>
