@@ -7,7 +7,7 @@ const PRODUCTS = [
     mrp: 799,
     desc: 'A unique Ayurvedic formula blended from over 92 natural berries and herbs. Sugar-free tonic crafted to boost energy and improve digestion for the whole family.',
     points: ['Boosts Energy', 'Improves Digestion', 'Sugar Free', '92+ Natural Ingredients'],
-    img: '/images/amrut-sanjivani.jpg'
+    img: '/amrut-sanjivani.jpg'
   },
   {
     id: 'p2',
@@ -17,7 +17,7 @@ const PRODUCTS = [
     mrp: 399,
     desc: '90% better absorption trifold sanitary napkins with anti-leak system and bigger wings. 100% toxic-free, rash & odor free, for day and night protection.',
     points: ['90% Better Absorption', 'Anti-Leak System', 'Rash & Odor Free', '100% Toxic Free'],
-    img: '/images/soft-cozi.jpg'
+    img: '/soft-cozi.jpg'
   }
 ];
 
